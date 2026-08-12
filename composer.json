@@ -1,0 +1,28 @@
+{
+  "name": "siqa/agent",
+  "description": "SIQA Agent SDK for PHP",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "SIQA Team"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "guzzlehttp/guzzle": "^7.8"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SIQA\\Agent\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SIQA\\Agent\\Tests\\": "tests/"
+    }
+  }
+}
